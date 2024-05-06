@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get this project running you will need to install Dockers.
+The Dockers version that is known to work is `4.29.0`.
 
-Things you may want to cover:
+- `git clone git@github.com:MartimBello/ChallengeAPI.git`
+- `cd ChallengeAPI`
+- `dockers compose up --build`
 
-* Ruby version
+Running these three commands will allow you to get the server and databases up and running in a Dockers container.
 
-* System dependencies
+The server will be running in the follwing url: [http://localhost:3000](http://localhost:3000)
 
-* Configuration
+# DOCS
 
-* Database creation
+In the following link you will find the API's docs.
 
-* Database initialization
+- [DOCS](docs/README.md)
 
-* How to run the test suite
+# FUTURE WORK
 
-* Services (job queues, cache servers, search engines, etc.)
+In this section, I leave a number of features to be implemented.
 
-* Deployment instructions
-
-* ...
+- User authentication for Booking requests.
+- Advanced Search Functionality with RV availability and location.
+- Unit and Integration tests.

@@ -24,7 +24,7 @@ class Api::V1::RvsController < ApplicationController
   def destroy
     rv = Rv.find(params[:id])
     rv.destroy
-    render json: "Object destroyed", status: 200
+    render json: {"message": "Rv is deleted"}, status: 200
   end
 
   def update
